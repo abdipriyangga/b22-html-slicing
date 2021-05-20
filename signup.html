@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Coffee Shop</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="flex">
+        <aside>
+            <div class="frame-img">
+                <img src="assets/images/sideImg.png" alt="image">
+            </div>
+        </aside>
+        <div class="mx-10 pt-10">
+            <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+            <span class="mx-3">Coffee Shop</span>
+            <button onclick="window.location.href='/login.html'" class="btn-login">Login</button>
+            <h2 class="my-10 text-center text-xl">Sign Up</h2>
+            <form class="p-3">
+                <label for="email">Email Address : </label>
+                <input class="border rounded focus:outline-none focus:ring-2 ..." type="text" placeholder="Enter your email address"><br>
+                <label for="email">Password : </label><br>
+                <input class="border rounded focus:outline-none focus:ring-2 ..." type="password" placeholder="Enter your password"><br>
+                <label for="email">Phone Number : </label>
+                <input class="border rounded focus:outline-none focus:ring-2 ..." type="tel" placeholder="Enter your phone number">
+            </form>
+
+            <button class="btn-signup">Signup</button>
+            <button class="btn-login-with">
+                <img class="inline-block mr-5" src="assets/icons/google-logo.png" alt="google-logo">
+                Sign Up with Google
+            </button>
+        </div>
+    </section>
+    
+    <section class="card-member absolute">
+            <div class="box-bottom">
+                <p class="text-card">Get your member card now!</p>
+                <button class="btn-create">Create Now</button>
+                <p class="-my-5 text-sub">Let's join with our member and enjoy the deals.</p>
+            </div>
+    </section>
+    <footer class="flex">
+        <div class="frame-icon-foot my-40 mx-40">
+            <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+            <span>Coffee Shop</span>
+            <p class="my-10 text-foot">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            <div class="social-media">
+                <div class="facebook inline-block">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter inline-block">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="instagram inline-block">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <p class="text-copyright my-5">&copy2020CoffeeStore</p>
+        </div>
+        <div class="foot-product-list ">
+            <div class="foot-title-product">
+                <span class="">Product</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Download</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">Pricing</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">Locations</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Countries</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Blogs</span>
+            </div>
+        </div>
+        <div class="foot-engage-list mx-10">
+            <div class="foot-title-product">
+                <span class="">Engage</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Coffee Shop ?</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">FAQ</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">About Us</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Privacy Policy</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Term of Service</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="assets/fontawesome-free-5.15.3/js/all.min.js"></script>
+</html>
