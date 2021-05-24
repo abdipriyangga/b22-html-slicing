@@ -12,8 +12,6 @@
     src: url("assets/fonts/Rubik/static/Rubik-Medium.ttf");
 }
 
-
-
 nav {
     font-family: Rubik;
 }
@@ -38,13 +36,15 @@ nav .text-brand {
 nav .text-home {
     font-size: 16px;
     font-weight: 700;
-
 }
 
 .text-home:active {
     color: #6A4029;
 }
-nav .text-product, .text-cart, .text-history {
+.text-product:active {
+    color: #6A4029;
+}
+nav  .text-cart, .text-history, .text-home {
     font-size: 16px;
     font-weight: 400;
     color: #4F5665;
@@ -56,6 +56,13 @@ nav .btn-login:hover {
     border-radius: 50px;
     font-weight: 700;
 }
+
+nav .fa-search, .fa-comments {
+    font-size: 24px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
 /* Banner index */
 .frame-banner {
     position: relative;
@@ -249,7 +256,6 @@ section .btn-login {
 
 h2 {
     font-family: Rubik;
-    font-weight: 700;
     color: #6A4029;
 }
 input {
@@ -438,4 +444,156 @@ footer .text-foot {
     font-family: Rubik;
     font-weight: 500;
     color: #4F5665;
+}
+
+/* Product-cust */
+.left-content {
+    width: 28rem;
+    height: 60rem;
+}
+aside h2 {
+    font-family: Rubik-Bold;
+}
+.box-back {
+    background-color: #895537;
+}
+.box-front {
+    background-color: #FFCB65;
+}
+.frame-img-coupon {
+    width: 100px;
+}
+.bottom-line {
+    margin-top: -10px;
+    border-bottom: 4px dotted #000000 ;
+}
+.box-btn-apply{
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 30rem;
+    background-color:#6A4029;
+    text-align: center;
+    margin-left: 6rem;
+    border-radius: 15px;
+}
+.card-product-cust {
+    border-radius: 25px;
+}
+.fa-pencil-alt {
+    width: 30px;
+    height: 20px;
+}
+.box-info-user {
+    border-radius: 25px;
+}
+.box-info-contacts {
+    width: 60rem;
+    border-radius: 25px;
+    margin-left: 23rem;
+}
+.btn-edit {
+    margin-left: 54rem;
+}
+.box-info-details {
+    width: 40rem;
+    border-radius: 25px;
+    margin-top: 37rem;
+}
+.btn-edit-details {
+    margin-left: 34rem;
+}
+.box-confirm {
+    width: 20rem;
+    margin-top: 38rem;
+    margin-left: 48rem;
+}
+.box-btn-save {
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 2rem;
+    background-color: #6A4029;
+    text-align: center;
+    margin-left: 3rem;
+    border-radius: 15px;
+}
+.box-btn-cancel {
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: #FFBA33;
+    text-align: center;
+    margin-left: 3rem;
+    border-radius: 15px;
+}
+.box-btn-editpw {
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 3rem;
+    border-radius: 15px;
+}
+.box-btn-logout {
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 3rem;
+    border-radius: 15px;
+}
+.box-info-forgot {
+    margin-top: 30rem;
+    margin-left: 31rem;
+}
+
+.box-form {
+    width: 100%;
+}
+/* Slider */
+.slider {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.box-radio{
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box-radio input::after{
+    background-color: #e76800;
+}
+
+.box-radio .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
 }

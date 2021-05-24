@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Coffee Shop </title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="bg-white shadow-lg p-9">
+        <ul class="inline-block mx-5">
+            <li class="inline-block">
+                <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+                <span class="text-brand">Coffee Shop</span>
+            </li>
+        </ul>
+        <ul class="inline-block mx-40">
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href="index.html"><span class="text-home">Home</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href="product-cust.html"><span class="text-product text-yellow-900 font-bold">Product</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href=""><span class="text-cart">Your Cart</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href=""><span class="text-history">History</span></a>
+            </li>
+        </ul>
+        <ul class="inline-block">
+            <li class="inline-block">
+                <i class="fas fa-search"></i>
+            </li>
+            <li class="inline-block">
+                <i class="far fa-comments"></i>
+            </li>
+        </ul>
+        <ul class="inline-block">
+            <li class="inline-block">
+                <div class="frame-img-profile">
+                    <img src="assets/images/profile-pic.png" class="rounded-full" alt="profile-pic">
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section class="relative">
+        <div class="absolute p-20">
+            <h2 class="text-white font-bold text-xl">User Profile</h2>
+        </div>
+        <div class="box-info-user absolute bg-white w-60 h-80 mt-36 ml-20">
+            <div class="p-10 w-44 ml-8">
+                <img src="assets/images/profile-lg.png" class="rounded-full" alt="profile">
+                <div class="absolute p-2 w-10 -mt-10 ml-16 rounded-full bg-yellow-900">
+                    <i class="fas fa-pencil-alt ml-1 text-white"></i>
+                </div>
+            </div>
+            <p class="text-center -mt-8 text-lg font-bold">Zulaikha</p>
+            <p class="text-center text-xs text-gray-400">zulaikha17@gmail.com</p>
+            <p class="text-sm text-center mt-8 text-gray-600">Has been ordered 15 products</p>
+        </div>
+        <div class="box-info-contacts absolute bg-white h-80 mt-36 ">
+            <div class="p-8">
+                <p class="text-gray-500 font-bold text-lg">Contacts</p>
+                <div class="btn-edit absolute p-2 w-10 -mt-10 rounded-full bg-yellow-900">
+                    <i class="fas fa-pencil-alt ml-1 text-white"></i>
+                </div>
+                <div class="box-form flex flex-row">
+                    <div>
+                        <form action="" class="mt-5 p-3 ">
+                            <span>
+                                <label class="inline-block" for="email">Email Address : </label>
+                                <p><input type="email" class="border-b-2 w-80 h-10 p-5" placeholder="Email address..."></p>
+                            </span>
+                            <span>
+                                <label class="inline-block" for="email">Delivery Address : </label>
+                                <p><input type="text" class="border-b-2  w-80 h-10 p-5" placeholder="Delivery address..."></p>
+                            </span>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="" class="mt-5 p-3 ">
+                            <span>
+                                <label class="inline-block" for="email">Mobile Number : </label>
+                                <p><input type="tel" class="border-b-2 w-80 h-10 p-5" placeholder="Mobile Number..."></p>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-info-details absolute bg-white h-96 ml-20">
+            <div class="p-8">
+                <p class="text-gray-500 font-bold text-lg">Details</p>
+                <div class="btn-edit-details absolute p-2 w-10 -mt-10 rounded-full bg-yellow-900">
+                    <i class="fas fa-pencil-alt ml-1 text-white"></i>
+                </div>
+                <div class="box-form flex flex-row">
+                    <div>
+                        <form action="" class="mt-5 p-3 ">
+                            <span>
+                                <label class="inline-block" for="email">Display Name : </label>
+                                <p><input type="text" class="border-b-2 w-80 h-10 p-5" placeholder="your display name"></p>
+                            </span>
+                            <span>
+                                <label class="inline-block" for="fname">First Name : </label>
+                                <p><input type="text" class="border-b-2  w-80 h-10 p-5" placeholder="first name"></p>
+                            </span>
+                            <span>
+                                <label class="inline-block" for="email">Last Name : </label>
+                                <p><input type="text" class="border-b-2  w-80 h-10 p-5" placeholder="last name"></p>
+                            </span>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="" class="mt-5 p-3 ">
+                            <span>
+                                <label class="inline-block" for="date">MM/DD/YY</label>
+                                <p><input type="date" class="border-b-2 w-60 h-10 p-5"></p>
+                            </span>
+                            <span>
+                                <label class="inline-block box-radio" for="male">
+                                    <input type="radio" class=" w-28 h-7 p-5" checked="checked">Male
+                                    <span class="checkmark"></span>
+                                </label>
+                                
+                                <label class="inline-block" for="female">
+                                    <input type="radio" class=" w-28 h-7 p-5">Female
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute box-confirm">
+            <p class="text-white font-bold text-xl text-center">Do you want to save the change?</p>
+            <div class="box-btn-save">
+                <button class="text-white text-md font-bold focus:outline-none">Save Changes</button>
+            </div>
+            <div class="box-btn-cancel">
+                <button class="text-white text-md font-bold focus:outline-none">Cancel</button>
+            </div>
+            <div class="box-btn-editpw">
+                <button class="text-black text-md font-bold focus:outline-none">Edit Password</button>
+            </div>
+            <div class="box-btn-logout">
+                <button class="text-black text-md font-bold focus:outline-none">Logout</button>
+            </div>
+        </div>
+        <figure class="bg-profile">
+            <img src="assets/images/bg-profile.png" alt="">
+        </figure>
+    </section>
+
+    <footer class="flex">
+        <div class="frame-icon-foot my-40 mx-40">
+            <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+            <span>Coffee Shop</span>
+            <p class="my-10 text-foot">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            <div class="social-media">
+                <div class="facebook inline-block">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter inline-block">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="instagram inline-block">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <p class="text-copyright my-5">&copy2020CoffeeStore</p>
+        </div>
+        <div class="foot-product-list ">
+            <div class="foot-title-product">
+                <span class="">Product</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Download</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">Pricing</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">Locations</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Countries</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Blogs</span>
+            </div>
+        </div>
+        <div class="foot-engage-list mx-10">
+            <div class="foot-title-product">
+                <span class="">Engage</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Coffee Shop ?</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">FAQ</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">About Us</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Privacy Policy</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Term of Service</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="assets/fontawesome-free-5.15.3/js/all.min.js"></script>
+</html>

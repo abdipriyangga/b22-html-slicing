@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | Coffee Shop</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="bg-white shadow-lg p-9">
+        <ul class="inline-block mx-5">
+            <li class="inline-block">
+                <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+                <span class="text-brand">Coffee Shop</span>
+            </li>
+        </ul>
+        <ul class="inline-block mx-40">
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href="index.html"><span class="text-home">Home</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href=""><span class="text-product text-yellow-900 font-bold">Product</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href=""><span class="text-cart">Your Cart</span></a>
+            </li>
+            <li class="inline-block hover:bg-yellow-400 p-4">
+                <a href=""><span class="text-history">History</span></a>
+            </li>
+        </ul>
+        <ul class="inline-block">
+            <li class="inline-block">
+                <i class="fas fa-search"></i>
+            </li>
+            <li class="inline-block">
+                <i class="far fa-comments"></i>
+            </li>
+        </ul>
+        <ul class="inline-block">
+            <a href="profile-page.html">
+                <li class="inline-block">
+                    <div class="frame-img-profile">
+                        <img src="assets/images/profile-pic.png" class="rounded-full" alt="profile-pic">
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </nav>
+
+    <aside class="flex flex-row divide-x divide-gray-200">
+        <div class=" left-content">
+            <h2 class="text-center text-xl mt-12">Promo For You</h2>
+            <p class="text-center w-72 ml-20 mt-16 text-black">Coupon will be updated every weeks. Check them out!</p>
+            <div class="absolute box-back w-48 h-72 ml-44 mt-16 rounded md:rounded-lg"></div>
+            <div class="absolute mt-12 bg-black w-48 h-80 ml-40 rounded md:rounded-lg"></div>
+            <div class="box-front absolute mt-8 w-56 h-96 ml-28 rounded md:rounded-lg">
+                <div class="p-10">
+                    <div class="h-40 ml-4 frame-img-coupon">
+                        <img src="assets/images/product-coupon.png" class="img-coupon rounded-full" alt="">
+                    </div>
+                    <div class="text-center -mt-10">
+                        <p class="font-bold">Beef Spaghetti 20% OFF</p>
+                        <p class="text-xs w-52 -ml-8 mt-2">Buy 1 Choco Oreo and get 20% off for Beef Spaghetti</p>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+                <div class="text-center">
+                    <p class="text-sm mt-2">Coupon Code</p>
+                    <p class="text-xl font-bold">FNPR15RG</p>
+                    <p class="text-xs mt-3">Valid untill October 10th 2020</p>
+                </div>
+            </div>
+            <div class="box-btn-apply">
+                <button class="text-white text-md font-bold focus:outline-none">Apply Coupon</button>
+            </div>
+            <div class="mt-10 p-5 ml-7">
+                <p class="text-md mt-2 text-gray-400 font-bold">Term and condition</p>
+                <ul class="text-sm text-gray-400">
+                    <li>1. You can only apply 1 coupon per day</li>
+                    <li>2. It only for dine in</li>
+                    <li>3. Buy 1 get 1 only for new user</li>
+                    <li>4. Should make member card to apply coupon</li>
+                </ul>
+            </div>
+        </div>
+        <div class="ml-10">
+            <div class="p-14 space-x-24">
+                <a href="">
+                    <span>Your Favorite</span>
+                </a>
+                <a href="">
+                    <span>Coffee</span>
+                </a>
+                <a href="">
+                    <span>Non Coffee</span>
+                </a>
+                <a href="">
+                    <span>Foods</span>
+                </a>
+                <a href="">
+                    <span>Add-on</span>
+                </a>
+            </div>
+            <div class="row-1 flex flex-row space-x-10 p-12 flex-wrap">
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-right.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 34.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-3.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Hazelnut Latte</p>
+                        <p class="text-center mt-10 text-sm font-bold text-yellow-800">IDR 25.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-2.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Summer Fried Rice</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 32.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/ice-cream1.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Creamy Ice Latte</p>
+                        <p class="text-center mt-10 text-sm font-bold text-yellow-800">IDR 27.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2 flex flex-row space-x-10 p-12 flex-wrap">
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-4.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Drum Sticks</p>
+                        <p class="text-center mt-10 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-5.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Salty Rice</p>
+                        <p class="text-center mt-10 text-sm font-bold text-yellow-800">IDR 20.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-right.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-3.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-3 flex flex-row space-x-10 p-12 flex-wrap">
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-2.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/ice-cream1.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-4.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+                <div class="card-product-cust w-40 h-72 bg-white shadow-lg">
+                    <div class="w-32 h-28 ml-3 absolute -mt-5">
+                        <img src="assets/images/product-cust-5.png" class="rounded-full" alt="product-cust">
+                    </div>
+                    <div class="absolute w-28 h-36 mt-28 ml-5 p-3">
+                        <p class="text-center mt-3 text-xl font-bold">Veggie Tomato Mix</p>
+                        <p class="text-center mt-3 text-sm font-bold text-yellow-800">IDR 30.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section>
+
+    </section>
+
+    <footer class="flex">
+        <div class="frame-icon-foot my-40 mx-40">
+            <img class="inline-block" src="assets/icons/coffee-1.png" alt="icon-coffee">
+            <span>Coffee Shop</span>
+            <p class="my-10 text-foot">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            <div class="social-media">
+                <div class="facebook inline-block">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter inline-block">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="instagram inline-block">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <p class="text-copyright my-5">&copy2020CoffeeStore</p>
+        </div>
+        <div class="foot-product-list ">
+            <div class="foot-title-product">
+                <span class="">Product</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Download</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">Pricing</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">Locations</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Countries</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Blogs</span>
+            </div>
+        </div>
+        <div class="foot-engage-list mx-10">
+            <div class="foot-title-product">
+                <span class="">Engage</span>
+            </div>
+            <div class="foot-text-download">
+                <span class="">Coffee Shop ?</span>
+            </div>
+            <div class="foot-text-pricing">
+                <span class="">FAQ</span>
+            </div>
+            <div class="foot-text-location">
+                <span class="">About Us</span>
+            </div>
+            <div class="foot-text-country">
+                <span class="">Privacy Policy</span>
+            </div>
+            <div class="foot-text-blog">
+                <span class="">Term of Service</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="assets/fontawesome-free-5.15.3/js/all.min.js"></script>
+</html>
