@@ -57,7 +57,7 @@ nav .btn-login:hover {
     font-weight: 700;
 }
 
-nav .fa-comments {
+nav .fa-search, .fa-comments {
     font-size: 24px;
     margin-right: 25px;
     margin-top: 10px;
@@ -596,22 +596,4 @@ aside h2 {
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
-}
-.fa-envelope {
-    font-size: 24px;
-    margin-right: 25px;
-    margin-top: 10px;
-}
-
-.fa-search {
-    font-size: 1rem;
-    margin-right: 25px;
-    margin-top: 15px;
-}
-
-.box-deliver-method {
-    margin-left: 48rem;
-}
-.box-order {
-    width: 40rem;
 }
