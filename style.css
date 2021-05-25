@@ -485,12 +485,14 @@ aside h2 {
     height: 20px;
 }
 .box-info-user {
+    width: 28rem;
+    height: 32rem;
     border-radius: 25px;
 }
 .box-info-contacts {
-    width: 60rem;
+    width: 40rem;
     border-radius: 25px;
-    margin-left: 23rem;
+    margin-left: 26rem;
 }
 .btn-edit {
     margin-left: 54rem;
@@ -614,4 +616,29 @@ aside h2 {
 }
 .box-order {
     width: 40rem;
+}
+
+/* Payment Page */
+.body-payment {
+    background-image: url("assets/images/bg-payment.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.text-head-order {
+    color: #362115;
+}
+.img-order-summary {
+    border-radius: 18px;
+}
+.box-info-order {
+    width: 28rem;
+    height: 40rem;
+    border-radius: 25px;
+}
+.text-total, .idr-total {
+    color: #362115;
+}
+.frame-footer {
+    margin-top: 30rem;
 }
