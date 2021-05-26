@@ -623,6 +623,7 @@ aside h2 {
     background-image: url("assets/images/bg-payment.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: 100% 100%;
 }
 .text-head-order {
@@ -640,5 +641,6 @@ aside h2 {
     color: #362115;
 }
 .frame-footer {
-    margin-top: 30rem;
+    height: 20rem;
+    margin-top: 50px;
 }
